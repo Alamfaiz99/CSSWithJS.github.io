@@ -1,0 +1,26 @@
+CSS variables
+-->variables are container which is used to store data temporarily
+The var() function is used to insert the value of a CSS variable.
+1)css vars-->access DOM-->You can create var with local and global scope
+2)change the var with javascript
+3)change the var based on media query
+syntax:
+var(--name, value)
+--name:mandatory
+value:optional
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+background-color: var(--blue);
+
+-->In our case we are declaring css variable at root
+
+-->label->for="spacing"
+   name="spacing" in input tag
+   type="range"
+   min="0" max="100"  value="10" data-sizing="px";
+
+-->What is dataset?
+  is set of all data-  attribute is data-set
+  
